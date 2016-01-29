@@ -1,0 +1,28 @@
+{
+  "name": "stampit-state-machine",
+  "version" : "0.1.0",
+  "description" : "A simple state machine interface for stampit.",
+  "keywords" : ["stampit", "state", "machine", "state machine"],
+  "homepage" : "https://github.com/Cloud-Automation/stampit-state-machine",
+  "license" : "MIT",
+  "author" : {
+    "name" : "Stefan Pöter", 
+    "email" : "stefan.poeter@cloud-automation.de",
+    "url" : "http://www.cloud-automation.de"
+  },
+  "main" : "./src/stampit-state-machine.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Cloud-Automation/stampit-state-machine.git"
+  },
+  "dependencies": {
+    "stampit": "^2.1.1",
+    "stampit-event-bus": "^0.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  },
+  "scripts": {
+    "test" : "jasmine"
+  }
+}
