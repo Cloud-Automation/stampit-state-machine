@@ -47,11 +47,12 @@ Returns true if the current state is state. False otherwise.
 
 `setState(newState)`
 
-Set a new state. Listen for the event `stateChanged` to be notified.
+Set a new state. Listen for the event `stateChanged` or the `newState_{state}` event to be notified.
 
     this.on('stateChanged', function (oldState, nextState) { });
+    this.on('newState_someState', function () { });
 
-    this.setState('newState');
+    this.setState('someState');
 
 ## LICENSE
 

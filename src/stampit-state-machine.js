@@ -20,6 +20,7 @@ module.exports = stampit().compose(EventBus).init(function () {
         currentState = newState;
 
         this.emit('stateChanged', oldState, newState);
+        this.emit('newState_' + newState);
 
         return this;
 

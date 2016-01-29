@@ -36,9 +36,15 @@ describe('Stampit State Machine Tests.', function () {
         
         });
 
+        sm.on('newState_someState', function () {
+
+            counter += 1;
+
+        });
+
         sm.setState('someState');
 
-        assert.equal(counter, 1);
+        assert.equal(counter, 2);
 
     
     });
