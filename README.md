@@ -9,18 +9,9 @@
     var stampit = require('stampit'),
         StateMachine = require('stampit-state-machine'); 
 
-    var stamp = StateMachine().init(function () {
-        
-            // see API
-        
-        });
-
-    // or
-
     var stamp = stampit().compose(StateMachine).init(function () {
         
-        
-        });
+    });
 
 ## API
 
@@ -28,8 +19,7 @@
 
 Specify the `initialState` attribute of the state.
 
-    var stamp = StateMachine({ initialState : 'someState' });
-
+    var stamp = StateMachine().refs({ initialState : 'someState' });
 
 ### Get the current State
 

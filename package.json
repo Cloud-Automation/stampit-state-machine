@@ -1,6 +1,6 @@
 {
   "name": "stampit-state-machine",
-  "version" : "0.2.0",
+  "version" : "0.2.1",
   "description" : "A simple state machine interface for stampit.",
   "keywords" : ["stampit", "state", "machine", "state machine"],
   "homepage" : "https://github.com/Cloud-Automation/stampit-state-machine",
